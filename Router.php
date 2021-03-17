@@ -64,7 +64,7 @@
                     }
                 }
 
-                $this->request = new RequestHttp($param);
+                $this->request = new Request($param);
 
                 try {
                     if (!empty($class))
@@ -100,7 +100,7 @@
                     "method" => $_SERVER["REQUEST_METHOD"]
                 ];
 
-                $this->request = new RequestHttp($param);
+                $this->request = new Request($param);
 
                 try {
                     if (!empty($class))
@@ -168,7 +168,7 @@
                     }
                 }
 
-                $this->request = new RequestHttp($param);
+                $this->request = new Request($param);
 
                 try {
                     if (!empty($class))
@@ -237,7 +237,7 @@
                     }
                 }
 
-                $this->request = new RequestHttp($param);
+                $this->request = new Request($param);
 
                 try {
                     if (!empty($class))
@@ -271,7 +271,7 @@
                 "method" => $_SERVER["REQUEST_METHOD"]
             ];
 
-            $this->request = new RequestHttp($param);
+            $this->request = new Request($param);
 
             try {
                 if (!empty($class))
